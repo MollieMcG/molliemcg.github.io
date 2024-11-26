@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "20.2-03"
+		"liveServer.settings.multiRootWorkspaceName": "20.2-03",
+		"liveServer.settings.port": 5501
 	}
 }
