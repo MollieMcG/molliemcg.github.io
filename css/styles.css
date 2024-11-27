@@ -88,6 +88,27 @@ h2 {
     object-fit: cover;
 }
 
+.features {
+    background-color: rgba(211,196,229,100);
+}
+
+.experience {
+    background-color: rgba(211,196,229,100);
+    background-size: 100vw 100vh;
+
+}
+
+i {
+    display: inline-block;
+    width: 30px;
+    font-size: 24px;
+}
+
+li {
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+}
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;

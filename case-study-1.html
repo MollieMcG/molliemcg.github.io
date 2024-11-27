@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Serif+Display:ital@0;1&family=Dela+Gothic+One&display=swap" rel="stylesheet">
@@ -30,26 +31,30 @@
           </div>
         </div>
     </nav>
+
     <div class="container">
-        <div class="mt-5 row">
+        <div class="mt-5 mb-5 row">
             <div class="col-12">
                 <h2>A music education app that fosters connection and growth.</h2>
-                <img src="images/case-study-1-image/jam_sessionz_portfolio image.jpg" class="w-100 mt-3 mb-3 p-1 shadow" alt="a mosaic of stills of the app on phones">
+                <img src="images/case-study-1-image/jam_sessionz_portfolio image.jpg" class="w-100 mt-3 mb-3 shadow" alt="a mosaic of stills of the app on phones">
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row align-items-center mt-5 mb-5">
-            <div class="col">
-                <h2>The Experience of Learning is a Shared One</h2>
-                <p>Jam Sessionz is a concept for a mobile app that was created due to the struggles we were hearing in interviews from beginner music students on finding customized lesson plans and getting feedback.</p>
-            </div>
-            <div class="col">
-                <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Users desired feedback from an instructor</li>
-                        <li class="list-group-item">Users want to interact with other students</li>
-                        <li class="list-group-item">Users need a knowledgable instructor</li>
-                </ul>
+    
+    <div class="full-width experience">
+        <div class="container p-4 justify-content-center">
+            <div class="row align-items-center mt-5 mb-5">
+                <div class="col">
+                    <h2>The Experience of Learning is a Shared One</h2>
+                    <p>Jam Sessionz is a concept for a mobile app that was created due to the struggles we were hearing in interviews from beginner music students on finding customized lesson plans and getting feedback.</p>
+                </div>
+                <div class="col">
+                    <ul class="list-unstyled ms-5">
+                        <li><i class="bi bi-person-check-fill me-1"></i>Users desired feedback from an instructor</li>
+                        <li><i class="bi bi-wechat me-1"></i>Users want to interact with other students</li>
+                        <li><i class="bi bi-book-fill me-1"></i>Users need a knowledgable instructor</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -57,7 +62,7 @@
     <div class="container mt-5 mb-5">
         <div class="row row-cols-3">
             <div class="col">
-                <div class="card h-100 p-5">
+                <div class="card h-100 p-5 shadow">
                     <img src="images/resume/amico.png" class="card-img-top img-fluid" alt="...">
                     <div class="card-body mt-3 h-100">
                         <h2>Step 1</h2>
@@ -66,7 +71,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100 p-5">
+                <div class="card h-100 p-5 shadow">
                     <img src="images/analysis/amico.png" class="card-img-top img-fluid" alt="...">
                     <div class="card-body mt-3 h-100">
                         <h2>Step 2</h2>
@@ -75,7 +80,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100 p-5">
+                <div class="card h-100 p-5 shadow">
                     <img src="images/amico.png" class="card-img-top img-fluid" alt="...">
                     <div class="card-body mt-3 h-100">
                       <h2>Step 3</h2>  
@@ -89,23 +94,28 @@
     <div class="row m-5 p-5">     
     </div>
 
-    <div class="row">
-        <h2>Features</h2>
-        <div class="col">
-            <img src="images/case-study-1-image/Goals Intro.png" alt="a close up image of a UI feature">
-            <p>Intro Survey</p>
-            <p>First time users of the app upon sign up have the option to complete a little survey that asks them about their level of experience, instruments they’re interested in and their goals. The purpose is to better suggest content and to encourage them via scheduled notifications.</p>
+    <div class="full-width features">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Features</h2>
+                    <img src="images/Group 8.png" alt="a close up image of a UI feature" class="shadow bg-light float-start">
+                    <h2>Intro Survey</h2>
+                    <p>First time users of the app upon sign up have the option to complete a little survey that asks them about their level of experience, instruments they’re interested in and their goals. The purpose is to better suggest content and to encourage them via scheduled notifications.</p>
+                </div>
+                <div class="col">
+                    <img src="images/case-study-1-image/Courses_closeup.png" alt="a close up image of a UI feature" class="shadow float-start">
+                    <h2>Course Thumbnails</h2>
+                    <p>Each course thumbnail includes the amount of videos and the expected time to complete the course. In interviews user’s expressed wanting to see ratings from other students</p>
+                    <img src="images/case-study-1-image/Sub Course_closeup.png" alt="a close up image of a UI feature" class="shadow float-start">
+                    <h2>Instructor Bio</h2>
+                    <p>A repeat comment during interviews was a desire for instructors with experience and proof of skill. With that in mind we wanted a little bio to highlight the instructor of the course.</p>
+                </div>
+            </div>
         </div>
-        <div class="col">
-            <img src="images/case-study-1-image/Courses_closeup.png" alt="a close up image of a UI feature">
-            <p>Course Thumbnails</p>
-            <p>Each course thumbnail includes the amount of videos and the expected time to complete the course. In interviews user’s expressed wanting to see ratings from other students</p>
-        </div>
-        <div class="col">
-            <img src="images/case-study-1-image/Sub Course_closeup.png" alt="a close up image of a UI feature">
-            <p>Instructor Bio</p>
-            <p>A repeat comment during interviews was a desire for instructors with experience and proof of skill. With that in mind we wanted a little bio to highlight the instructor of the course.</p>
-        </div>
+    </div>
+
+    <div class="row m-5 p-5">     
     </div>
 
     <div class="row">
@@ -155,6 +165,7 @@
         </footer>
       </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
