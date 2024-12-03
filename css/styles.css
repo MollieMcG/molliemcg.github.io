@@ -58,6 +58,18 @@ nav {
     border: none;
 }
 
+.btn-primary {
+  color: rgba(180,208,89,100);
+  background-color: rgba(34,38,1,100);
+  border-color: rgba(34,38,1,100);
+}
+
+.btn-primary:hover {
+  color: rgba(34,38,1,100);
+  background-color: rgba(180, 208, 89, 0.295);
+  border-color: rgba(180,208,89,100);
+}
+
 img {
     border-radius: 10px;
     object-fit: contain;
@@ -76,6 +88,7 @@ p {
     font-weight: 500;
     font-style: normal;
     font-size: 30;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -109,6 +122,12 @@ h3 {
   .progress-bar {
     height: 8px;
     background: #4e149a;
+    width: 0%;
+  }
+
+  .progress-bar-2 {
+    height: 8px;
+    background: #d16500;
     width: 0%;
   }
 
