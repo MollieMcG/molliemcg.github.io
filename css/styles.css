@@ -185,7 +185,3 @@ li {
   .accordion-button:not(.collapsed)::after {
     background-image: url(../images/arrow-down-circle-fill.svg);
 }
-
-.cover {
- height:600px;
-}
