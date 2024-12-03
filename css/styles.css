@@ -158,3 +158,10 @@ li {
       font-size: 3.5rem;
     }
   }
+
+
+  .accordion-body{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
