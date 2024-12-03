@@ -165,3 +165,22 @@ li {
     align-items: center;
     gap: 40px;
   }
+
+  .accordion-button{
+    color: #4e149a;
+    background-color: #bea8d9;;
+  }
+  .accordion-button:not(.collapsed){
+    color: white;
+    background-color: #4e149a;
+  }
+  .accordion-button:focus{
+    border-color: #4e149a;
+    box-shadow: 0 0 0 .25rem rgba(83, 63, 197, 0.432);
+  }
+  .accordion-button::after {
+    background-image: url(../images/arrow.svg);
+}
+  .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/arrow.svg);
+}
