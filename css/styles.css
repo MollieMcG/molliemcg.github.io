@@ -144,12 +144,12 @@ h3 {
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 
-.features {
+.js-banner {
     background-color: rgba(211,196,229,100);
 }
 
-.experience {
-    background-color: rgba(211,196,229,100);
+.paws-banner {
+    background-color: rgba(209,101,0,0.5);
     background-size: cover;
 
 }
@@ -178,8 +178,7 @@ li {
       font-size: 3.5rem;
     }
   }
-
-
+  
   .accordion-body{
     display: flex;
     align-items: center;
@@ -188,15 +187,15 @@ li {
 
   .accordion-button{
     color: #000000;
-    background-color: #bea8d9;;
+    background-color: rgba(209,101,0,0.5);
   }
   .accordion-button:not(.collapsed){
     color: rgb(0, 0, 0);
-    background-color: #bea8d9;
+    background-color: rgba(209,101,0,0.5);
   }
   .accordion-button:focus{
-    border-color: #bea8d9;
-    box-shadow: 0 0 0 .25rem rgba(78, 20, 154, 0.651);
+    border-color: #rgba(209,101,0,1.0);
+    box-shadow: 0 0 0 .25rem rgba(209,101,0, 0.6);
   }
   .accordion-button::after {
     background-image: url(../images/arrow-down-circle-fill.svg);
