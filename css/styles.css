@@ -179,8 +179,12 @@ li {
     box-shadow: 0 0 0 .25rem rgba(83, 63, 197, 0.432);
   }
   .accordion-button::after {
-    background-image: url(../images/arrow.svg);
+    background-image: url(../images/arrow-down-circle-fill.svg);
 }
   .accordion-button:not(.collapsed)::after {
-    background-image: url(../images/arrow.svg);
+    background-image: url(../images/arrow-down-circle-fill.svg);
+}
+
+.bi {
+  fill: #fff;
 }
