@@ -34,6 +34,7 @@ a h2 {
 
 nav {
     background-color: rgba(34,38,1,100) ;
+    background-size: cover;
     padding-left: 30pt;
     padding-right: 30pt;
 }
@@ -130,7 +131,7 @@ h3 {
 
 .experience {
     background-color: rgba(211,196,229,100);
-    background-size: 100vw 100vh;
+    background-size: cover;
 
 }
 
@@ -167,16 +168,16 @@ li {
   }
 
   .accordion-button{
-    color: #4e149a;
+    color: #000000;
     background-color: #bea8d9;;
   }
   .accordion-button:not(.collapsed){
-    color: white;
-    background-color: #4e149a;
+    color: rgb(0, 0, 0);
+    background-color: #bea8d9;
   }
   .accordion-button:focus{
-    border-color: #4e149a;
-    box-shadow: 0 0 0 .25rem rgba(83, 63, 197, 0.432);
+    border-color: #bea8d9;
+    box-shadow: 0 0 0 .25rem rgba(78, 20, 154, 0.651);
   }
   .accordion-button::after {
     background-image: url(../images/arrow-down-circle-fill.svg);
@@ -185,6 +186,6 @@ li {
     background-image: url(../images/arrow-down-circle-fill.svg);
 }
 
-.bi {
-  fill: #fff;
+.cover {
+ height:600px;
 }
