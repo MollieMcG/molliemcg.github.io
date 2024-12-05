@@ -37,10 +37,6 @@ nav {
     background-size: cover;
 }
 
-li.nav-item {
-  float:right;
-}
-
 .navbar-dark .navbar-toggler {
     color: rgba(180,208,89,100);
 }
