@@ -41,6 +41,10 @@ nav {
     color: rgba(180,208,89,100);
 }
 
+body {
+  background-image: url("../images/backg_website.png");
+}
+
 .welcomeCard {
     line-height: 2.0;
 }
