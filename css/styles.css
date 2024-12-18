@@ -165,6 +165,9 @@ h3 {
   bottom: 20px;
   right: 20px;
   display: none;
+  color: white;
+  background-color: rgba(180, 208, 89, 1);
+  border-color: rgba(180, 208, 89, 0.295);
 }
 
 i {
