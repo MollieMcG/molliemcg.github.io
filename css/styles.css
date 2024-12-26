@@ -160,6 +160,11 @@ h3 {
 
 }
 
+.movie-banner {
+  background-color: white;
+  background-size: cover;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
@@ -189,6 +194,10 @@ li {
     user-select: none;
   }
   
+  .carousel-inner img {
+    margin: auto;
+  }
+
   .accordion-body{
     display: flex;
     align-items: center;
