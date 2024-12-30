@@ -50,10 +50,11 @@ nav {
 }
 
 .dropdown {
-  font-family: "Dela Gothic One", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+  margin-bottom: 0;
   color: rgba(180,208,89,100);
 }
 
@@ -90,11 +91,13 @@ body {
 
 img {
     border-radius: 10px;
-    object-fit: contain;
+    width: 100%;
 }
 
-.gallery {
-  text-decoration: none;
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
 }
 
 h1 {
@@ -218,29 +221,29 @@ li {
     user-select: none;
   }
   
-  .carousel-inner img {
-    margin: auto;
-  }
-
-  .accordion-body{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .accordion-button:not(.collapsed){
-    color: rgb(0, 0, 0);
-    background-color: rgb(235, 235, 235);
-  }
-  .accordion-button:focus{
-    border-color: rgb(206, 206, 206);
-    box-shadow: 0 0 0 .25rem rgba(116, 116, 116, 0.6);
-  }
-  .accordion-button::after {
-    background-image: url(../images/arrow-down-circle-fill.svg);
+.carousel-inner img {
+  margin: auto;
 }
-  .accordion-button:not(.collapsed)::after {
-    background-image: url(../images/arrow-down-circle-fill.svg);
+
+.accordion-body{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.accordion-button:not(.collapsed){
+  color: rgb(0, 0, 0);
+  background-color: rgb(235, 235, 235);
+}
+.accordion-button:focus{
+  border-color: rgb(206, 206, 206);
+  box-shadow: 0 0 0 .25rem rgba(116, 116, 116, 0.6);
+}
+.accordion-button::after {
+  background-image: url(../images/arrow-down-circle-fill.svg);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../images/arrow-down-circle-fill.svg);
 }
 
 @media (max-width: 768px) {
