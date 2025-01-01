@@ -58,7 +58,7 @@ nav {
   color: rgba(180,208,89,100);
 }
 
-body {
+.index {
   background-image: url("../images/backg_website.png");
 }
 
@@ -178,17 +178,22 @@ h3 {
 }
 
 .js-banner {
-    background-color: rgba(211,196,229,100);
+  background-color: rgba(211,196,229,100);
 }
 
 .paws-banner {
-    background-color: rgba(229,169,112,100);
-    background-size: cover;
+  background-color: rgba(229,169,112,100);
+  background-size: cover;
 
 }
 
 .movie-banner {
   background-color: white;
+  background-size: cover;
+}
+
+.mindful-container {
+  background-color: #E1C1D0;
   background-size: cover;
 }
 
