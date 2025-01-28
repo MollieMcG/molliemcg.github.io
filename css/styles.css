@@ -32,6 +32,11 @@ a h2 {
     color: rgba(180,208,89,100);
 }
 
+a {
+  text-decoration: none;
+  
+}
+
 nav {
     background-color: rgba(34,38,1,100) ;
     background-size: cover;
